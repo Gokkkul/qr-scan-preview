@@ -1,5 +1,6 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +18,7 @@
             margin: auto;
             background: #ffffff;
             border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             overflow: hidden;
         }
 
@@ -58,17 +59,18 @@
         }
     </style>
 </head>
+
 <body>
 
     <div class="container">
         <div class="header">
+            <img src="/Images/Icons.png" alt="" width="00[]">
             <h1>Equipment Details</h1>
         </div>
 
         <div class="content">
-            <img src="DV-1304Z.jpeg"
-                 alt="Deluge System Skid"
-                 class="equipment-image">
+           
+            <img src="/Images/DV-1304Z.jpeg" alt="Deluge System Skid" class="equipment-image">
 
             <div class="details">
                 <div class="detail-row">
@@ -78,11 +80,160 @@
 
                 <div class="detail-row">
                     <span class="label">Description:</span>
-                    Deluge System Skid 
+                    Deluge System Skid
+                </div>
+                <div class="detail-row">
+                    <span class="label">QR Code:</span>
+                    
                 </div>
             </div>
         </div>
     </div>
 
 </body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipment Details</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background-color: #003366;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 22px;
+            flex: 1;
+            text-align: center;
+        }
+
+        .header img {
+            height: 50px;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .equipment-image {
+            width: 100%;
+            max-height: 450px;
+            object-fit: contain;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #fafafa;
+        }
+
+        .details {
+            margin-top: 20px;
+        }
+
+        .detail-row {
+            margin-bottom: 12px;
+            font-size: 18px;
+        }
+
+        .label {
+            font-weight: bold;
+            color: #003366;
+            display: inline-block;
+            width: 130px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+            border-top: 1px solid #ddd;
+            font-size: 14px;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- HEADER -->
+        <div class="header">
+            <img src="/Images/Icons.png" alt="Company Logo">
+            <h1>Equipment Details</h1>
+            <div></div>
+        </div>
+
+        <!-- CONTENT -->
+        <div class="content">
+
+            <!-- Equipment Image -->
+            <img src="/Images/DV-1304Z.jpeg" alt="Deluge System Skid" class="equipment-image">
+
+            <!-- DETAILS -->
+            <div class="details">
+
+                <div class="detail-row">
+                    <span class="label">Equipment ID:</span>
+                    DV-1304Z
+                </div>
+                <div class="detail-row">
+                    <span class="label">Unit:</span>
+                    13
+                </div>
+
+                <div class="detail-row">
+                    <span class="label">Description:</span>
+                    Deluge System Skid
+                </div>
+                <div class="detail-row">
+                    <span class="label">P&ID No:</span>
+                    5358-U13-62-D33
+                </div>
+
+                <div class="detail-row">
+                    <span class="label">QR Title:</span>
+                    <!-- QR image or placeholder -->
+                     U13-SKID-DV-1304Z-0069
+                </div>
+
+                <div class="footer">
+                    <p>Prepared by <b>Icon Industrial Engineering Services</b></p>
+                    <p style="font-size:12px; color:gray;">All rights reserved © 2026</p>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
 </html>
